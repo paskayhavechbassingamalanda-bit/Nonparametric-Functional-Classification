@@ -39,7 +39,6 @@ library(Matrix)
 
 
 data2=function(n1,n2,a,sigma){
-  set.seed(1)
   nxn <- n1*n2
   sigma2 <- sigma^2
   argvals=seq(0, 1, 1/364)## grille fonctionnelle
